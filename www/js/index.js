@@ -35,7 +35,7 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
          setTimeout(function(){
-             window.locattion = "http://manysolutions.com?user=testdrive"; 
+             window.locattion.href = "http://manysolutions.com?user=testdrive"; 
          },50000);
     },
     // Update DOM on a Received Event
