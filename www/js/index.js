@@ -34,9 +34,7 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
-         setTimeout(function(){
-             window.locattion.href = "http://manysolutions.com?user=testdrive"; 
-         },50000);
+        
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
