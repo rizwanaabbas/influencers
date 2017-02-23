@@ -36,7 +36,7 @@
             <div id="deviceready" class="blink" >
       
                 <div class="app-logo">
-                   <a href="http://manysolutions.com?user=testdrive" target="_parent"> <img src="img/logo.png"></a>
+                   <a href="http://manysolutions.com?user=testdrive" target="_system"> <img src="img/logo.png"></a>
                 </div>
                 <div class="about-page">
                
@@ -64,7 +64,8 @@
        
        $(document).ready(function(){
             setTimeout(function(){
-                window.location.href = "http://manysolutions.com?user=testdrive"; 
+                window.open("http://manysolutions.com?user=testdrive",'_systems'); 
+                 e.preventDefault();
              },5000);
        });
         </script>
